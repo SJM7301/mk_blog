@@ -1,0 +1,28 @@
+
+/* 전역 스타일시트 */
+body {
+    font-family: Arial, sans-serif; /* 폰트 설정 */
+    margin: 0; /* 기본 margin 제거 */
+    padding: 0; /* 기본 padding 제거 */
+  }
+  
+  h1, h2 {
+    color: #ffffff; /* 제목 색상 설정 */
+  }
+
+  a {
+    text-decoration: none; /* 링크의 밑줄 제거 */
+    color: inherit; /* 링크 색상을 부모 색상으로 설정 */
+  }
+  
+  footer {
+    text-align: center; /* 푸터 가운데 정렬 */
+    padding: 1em; /* 푸터 패딩 설정 */
+    background-color: #f1f1f1; /* 푸터 배경 색상 */
+  }
+
+  /*
+    설명:
+        main.css는 기본적인 전역 스타일을 정의합니다.
+        웹사이트 전반의 스타일을 여기에 작성합니다.
+  */

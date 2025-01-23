@@ -1,0 +1,29 @@
+note-box/
+├── public/                     		# 정적 파일 폴더
+│   ├── index.html             	# HTML 템플릿
+│   ├── favicon.ico             	# 파비콘
+│   └── assets/                 	# 이미지 및 기타 정적 자원
+├── src/                        		# 애플리케이션 소스 코드
+│   ├── assets/                 	# CSS, 이미지 등 정적 파일
+│   │   ├── styles/             	# 스타일시트 폴더
+│   │   │   └── main.css        	# 전역 스타일시트
+│   │   └── images/             	# 프로젝트 이미지 폴더
+│   ├── components/             	# Vue 컴포넌트 폴더
+│   │   ├── Header.vue          	# 헤더 컴포넌트
+│   │   ├── Footer.vue          	# 푸터 컴포넌트
+│   │   └── PostList.vue       	# 게시글 리스트 컴포넌트
+│   ├── views/                  	# 페이지 단위 Vue 파일
+│   │   ├── Home.vue            	# 홈 페이지
+│   │   ├── About.vue           	# 소개 페이지
+│   │   └── Contact.vue         	# 연락처 페이지
+│   ├── router/                 	# Vue Router 설정
+│   │   └── index.js            	# 라우터 설정 파일
+│   ├── store/                  	# Vuex 상태 관리 폴더 (옵션)
+│   │   └── index.js            	# 상태 관리 스토어 설정 파일
+│   ├── App.vue                 	# 메인 컴포넌트
+│   └── main.js                 	# 진입점 파일
+├── .env                        		# 환경 변수 설정 파일
+├── .eslintrc.js                		# ESLint 설정 파일
+├── babel.config.js             	# Babel 설정 파일
+├── package.json                	# 프로젝트 종속성 및 설정 파일
+└── README.md                  	# 프로젝트 문서
